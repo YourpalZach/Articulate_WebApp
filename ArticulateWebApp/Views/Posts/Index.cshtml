@@ -1,66 +1,47 @@
 ﻿@model IEnumerable<ArticulateWebApp.Models.Post>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "All Posts";
 }
 
-<h1>Index</h1>
-
+<h1>@ViewData["Title"]</h1>
 
 <p>
     <a asp-action="SelectType" class="btn btn-outline-primary mb-3">New Post</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Content)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImagePath)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedAt)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User)
-            </th>
-            <th></th>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Created At</th>
+            <th>Author</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Content)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImagePath)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedAt)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.Id)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var post in Model)
+        {
+            var currentUserId = User.FindFirst("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier")?.Value;
+            var isOwnerOrAdmin = post.UserId == currentUserId || User.IsInRole("Admin");
+            <tr>
+                <td>
+                    <a asp-action="Details" asp-route-id="@post.Id">@post.Title</a>
+                </td>
+                <td>@post.Category</td>
+                <td>@post.CreatedAt.ToLocalTime().ToString("g")</td>
+                <td>@(post.User?.UserName ?? "Unknown")</td>
+                <td>
+                    @if (isOwnerOrAdmin)
+                    {
+                        <text>
+                            <a asp-action="Edit" asp-route-id="@post.Id">Edit</a> |
+                            <a asp-action="Delete" asp-route-id="@post.Id">Delete</a>
+                        </text>
+                    }
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
