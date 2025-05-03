@@ -6,25 +6,25 @@ namespace ArticulateWebApp.Models
 {
     public class Post
     {
-        [Key]
         public int Id { get; set; }
 
         [Required]
-        public string Title { get; set; }
+        public string Title { get; set; } = null!;
 
-        public string Content { get; set; }
+        public string? Content { get; set; }
 
-        public string Category { get; set; } // e.g. "Poem", "Story", "Photo"
+        [Required]
+        public string Category { get; set; } = null!;
 
-        public string ImagePath { get; set; } // Used if it's a photo
+        public string? ImagePath { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; }
 
-        [ForeignKey("User")]
-        public string UserId { get; set; }
-        public IdentityUser User { get; set; }
+        public string? UserId { get; set; }
 
-        public ICollection<Comment> Comments { get; set; }
-        public ICollection<Reaction> Reactions { get; set; }
+        public IdentityUser? User { get; set; }
+
+        public List<Comment>? Comments { get; set; }
+        public List<Reaction>? Reactions { get; set; }
     }
 }

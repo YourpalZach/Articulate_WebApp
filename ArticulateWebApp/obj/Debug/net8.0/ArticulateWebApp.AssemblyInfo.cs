@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArticulateWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a364db0200fb3844c49f6c0b9ec565cdde2aa95f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArticulateWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArticulateWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

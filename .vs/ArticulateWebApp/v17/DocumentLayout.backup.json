@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Data\\Migrations\\20250503193834_FixedCascadeIssue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ArticulateWebApp\\Data\\Migrations\\20250503193834_FixedCascadeIssue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|c:\\users\\meats\\source\\repos\\articulatewebapp\\articulatewebapp\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|solutionrelative:articulatewebapp\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|c:\\users\\meats\\source\\repos\\articulatewebapp\\articulatewebapp\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|solutionrelative:articulatewebapp\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|c:\\users\\meats\\source\\repos\\articulatewebapp\\articulatewebapp\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|solutionrelative:articulatewebapp\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|c:\\users\\meats\\source\\repos\\articulatewebapp\\articulatewebapp\\views\\posts\\createtextpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|solutionrelative:articulatewebapp\\views\\posts\\createtextpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|c:\\users\\meats\\source\\repos\\articulatewebapp\\articulatewebapp\\views\\posts\\createphotopost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|solutionrelative:articulatewebapp\\views\\posts\\createphotopost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|c:\\users\\meats\\source\\repos\\articulatewebapp\\articulatewebapp\\views\\posts\\selecttype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|solutionrelative:articulatewebapp\\views\\posts\\selecttype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|c:\\users\\meats\\source\\repos\\articulatewebapp\\articulatewebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|solutionrelative:articulatewebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|c:\\users\\meats\\source\\repos\\articulatewebapp\\articulatewebapp\\data\\migrations\\20250503193834_fixedcascadeissue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|solutionrelative:articulatewebapp\\data\\migrations\\20250503193834_fixedcascadeissue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|c:\\users\\meats\\source\\repos\\articulatewebapp\\articulatewebapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|c:\\users\\meats\\source\\repos\\articulatewebapp\\articulatewebapp\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|solutionrelative:articulatewebapp\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|c:\\users\\meats\\source\\repos\\articulatewebapp\\articulatewebapp\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|solutionrelative:articulatewebapp\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F243F546-8C36-4D64-AC9F-B080D1D48393}|ArticulateWebApp\\ArticulateWebApp.csproj|c:\\users\\meats\\source\\repos\\articulatewebapp\\articulatewebapp\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,24 +62,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Views\\Posts\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArticulateWebApp\\Views\\Posts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Views\\Posts\\Index.cshtml",
+              "RelativeToolTip": "ArticulateWebApp\\Views\\Posts\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T20:09:06.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreatePhotoPost.cshtml",
+              "DocumentMoniker": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Views\\Posts\\CreatePhotoPost.cshtml",
+              "RelativeDocumentMoniker": "ArticulateWebApp\\Views\\Posts\\CreatePhotoPost.cshtml",
+              "ToolTip": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Views\\Posts\\CreatePhotoPost.cshtml",
+              "RelativeToolTip": "ArticulateWebApp\\Views\\Posts\\CreatePhotoPost.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T20:07:49.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateTextPost.cshtml",
+              "DocumentMoniker": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Views\\Posts\\CreateTextPost.cshtml",
+              "RelativeDocumentMoniker": "ArticulateWebApp\\Views\\Posts\\CreateTextPost.cshtml",
+              "ToolTip": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Views\\Posts\\CreateTextPost.cshtml",
+              "RelativeToolTip": "ArticulateWebApp\\Views\\Posts\\CreateTextPost.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T20:07:21.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SelectType.cshtml",
+              "DocumentMoniker": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Views\\Posts\\SelectType.cshtml",
+              "RelativeDocumentMoniker": "ArticulateWebApp\\Views\\Posts\\SelectType.cshtml",
+              "ToolTip": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Views\\Posts\\SelectType.cshtml",
+              "RelativeToolTip": "ArticulateWebApp\\Views\\Posts\\SelectType.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T20:04:23.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ArticulateWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ArticulateWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T19:51:37.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "ArticulateWebApp\\Controllers\\PostsController.cs",
+              "ToolTip": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "ArticulateWebApp\\Controllers\\PostsController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAiwGAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T19:51:16.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "20250503193834_FixedCascadeIssue.cs",
               "DocumentMoniker": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Data\\Migrations\\20250503193834_FixedCascadeIssue.cs",
               "RelativeDocumentMoniker": "ArticulateWebApp\\Data\\Migrations\\20250503193834_FixedCascadeIssue.cs",
               "ToolTip": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Data\\Migrations\\20250503193834_FixedCascadeIssue.cs",
               "RelativeToolTip": "ArticulateWebApp\\Data\\Migrations\\20250503193834_FixedCascadeIssue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T19:38:34.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ArticulateWebApp\\Data\\ApplicationDbContext.cs",
@@ -63,12 +165,11 @@
               "RelativeToolTip": "ArticulateWebApp\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T19:29:49.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T19:29:49.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Reaction.cs",
               "DocumentMoniker": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Models\\Reaction.cs",
               "RelativeDocumentMoniker": "ArticulateWebApp\\Models\\Reaction.cs",
@@ -76,12 +177,11 @@
               "RelativeToolTip": "ArticulateWebApp\\Models\\Reaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T19:29:16.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T19:29:16.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "ArticulateWebApp\\Models\\Comment.cs",
@@ -89,25 +189,24 @@
               "RelativeToolTip": "ArticulateWebApp\\Models\\Comment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T19:28:56.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T19:28:56.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Models\\Post.cs",
               "RelativeDocumentMoniker": "ArticulateWebApp\\Models\\Post.cs",
               "ToolTip": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Models\\Post.cs",
               "RelativeToolTip": "ArticulateWebApp\\Models\\Post.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T19:28:30.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\Models\\UserProfile.cs",
               "RelativeDocumentMoniker": "ArticulateWebApp\\Models\\UserProfile.cs",
@@ -115,12 +214,11 @@
               "RelativeToolTip": "ArticulateWebApp\\Models\\UserProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T19:27:57.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T19:27:57.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\meats\\source\\repos\\ArticulateWebApp\\ArticulateWebApp\\appsettings.json",
               "RelativeDocumentMoniker": "ArticulateWebApp\\appsettings.json",
@@ -128,8 +226,7 @@
               "RelativeToolTip": "ArticulateWebApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-03T19:16:47.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T19:16:47.087Z"
             }
           ]
         }

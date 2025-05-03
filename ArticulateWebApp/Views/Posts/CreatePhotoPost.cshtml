@@ -1,0 +1,24 @@
+﻿@model ArticulateWebApp.Models.Post
+
+@{
+    ViewData["Title"] = "New Photo Collection";
+}
+
+<h2>Upload a Photo Collection</h2>
+
+<form asp-action="CreatePhotoPost" enctype="multipart/form-data" method="post">
+    <input type="hidden" name="Category" value="Photo Collection" />
+
+    <div class="form-group">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="upload">Select an Image</label>
+        <input type="file" name="upload" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-dark">Submit</button>
+</form>
