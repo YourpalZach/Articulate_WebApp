@@ -15,11 +15,12 @@ namespace ArticulateWebApp.Models
         public IdentityUser User { get; set; }
 
         [MaxLength(100)]
-        public string DisplayName { get; set; }
+        public string? DisplayName { get; set; }
 
-        public string Bio { get; set; }
+        [MaxLength(250)]
+        public string? Bio { get; set; }
 
-        public string ProfilePicturePath { get; set; }
+        public string? ProfilePicturePath { get; set; }
 
         public ICollection<Post> Posts { get; set; }
     }

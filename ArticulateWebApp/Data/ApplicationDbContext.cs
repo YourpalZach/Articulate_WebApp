@@ -23,7 +23,7 @@ namespace ArticulateWebApp.Data
                 .HasOne(c => c.Post)
                 .WithMany(p => p.Comments)
                 .HasForeignKey(c => c.PostId)
-                .OnDelete(DeleteBehavior.Restrict); // <--- Prevents cascade conflict
+                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Reaction>()
                 .HasOne(r => r.Post)

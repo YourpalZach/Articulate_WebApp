@@ -1,0 +1,50 @@
+﻿@model ArticulateWebApp.Models.UserProfile
+@using ArticulateWebApp.Models
+@using System.Security.Claims
+
+@{
+    ViewData["Title"] = $"{Model.DisplayName}'s Profile";
+    var posts = ViewBag.Posts as List<Post>;
+    var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h2>@Model.DisplayName</h2>
+
+            @if (!string.IsNullOrEmpty(Model.Bio))
+            {
+                <p class="text-muted">@Model.Bio</p>
+            }
+            else
+            {
+                <p class="text-muted fst-italic">No bio provided.</p>
+            }
+
+        
+        </div>
+    </div>
+
+    <h4 class="mb-3">Posts</h4>
+
+    @if (posts != null && posts.Any())
+    {
+        <div class="list-group">
+            @foreach (var post in posts)
+            {
+                <a asp-controller="Posts" asp-action="Details" asp-route-id="@post.Id" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">@post.Title</h5>
+                        <small>@post.CreatedAt.ToShortDateString()</small>
+                    </div>
+                    <p class="mb-1 text-muted">@post.Category</p>
+                </a>
+            }
+        </div>
+    }
+    else
+    {
+        <p class="text-muted">This user hasn't posted anything yet.</p>
+    }
+</div>
